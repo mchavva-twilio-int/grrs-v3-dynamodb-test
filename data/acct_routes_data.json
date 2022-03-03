@@ -1,0 +1,72 @@
+{
+    "account_route_configurations": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "sid": {
+                        "S": "3b48b52d-c780-4be0-ab9c-fcbdf25d3f83"
+                    },
+                    "account_sid": {
+                        "S": "AC85349f32db59a8c13d87faefd6dd60dc"
+                    },
+                    "routes": {
+                        "M": {
+                            "voice": {
+                                "S": "JP"
+                            },
+                            "messaging": {
+                                "S": "ID"
+                            },
+                            "data": {
+                                "S": "CN"
+                            }
+                        }
+                    },
+                    "friendly_name": {
+                        "S": "Vagram"
+                    },
+                    "date_created": {
+                        "S": "2021-04-01T01:33:34Z"
+                    },
+                    "date_updated": {
+                        "S": "2021-09-22T15:23:18Z"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "sid": {
+                        "S": "fdb8a1f8-1fcb-416c-8cc4-f61d40da9e48"
+                    },
+                    "account_sid": {
+                        "S": "AC85349f32db59a8c13d87faefd6dd60dc"
+                    },
+                    "routes": {
+                        "M": {
+                            "voice": {
+                                "S": "ID"
+                            },
+                            "messaging": {
+                                "S": "CV"
+                            },
+                            "data": {
+                                "S": "PT"
+                            }
+                        }
+                    },
+                    "friendly_name": {
+                        "S": "Hatity"
+                    },
+                    "date_created": {
+                        "S": "2021-04-24T04:36:19Z"
+                    },
+                    "date_updated": {
+                        "S": "2021-12-16T14:18:02Z"
+                    }
+                }
+            }
+        }
+    ]
+}
